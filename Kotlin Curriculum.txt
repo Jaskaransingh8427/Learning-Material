@@ -1,114 +1,195 @@
----
 
-### **1. Introduction to Kotlin**
-   - What is Kotlin? (Overview, Features)
-   - Setting up the development environment (IDE setup)
-   - Writing your first Kotlin program (Hello World)
+### 1. **Control Flow Statements**
 
-### **2. Variables and Data Types**
-   - `var` vs `val` (mutable vs immutable variables)
-   - Basic data types in Kotlin (Int, Double, String, Boolean, etc.)
-   - Type inference in Kotlin
+**Lesson 1: Conditional Logic (`if`, `else`, `else if`)**  
+- **Project**: Age-based movie ticket pricing system.  
+  **Details**: Write a program that takes the user's age as input and determines the ticket price. Implement `if-else` logic to categorize users as child, adult, or senior based on age and assign the ticket price accordingly.
 
-### **3. Control Flow Statements**
-   - **If, else, else if**: Conditional logic
-   - **When expressions**: More powerful than `switch-case` statements
-   - Practice: Write a program that uses if-else and when statements to solve basic problems
+**Lesson 2: `When` Expression**  
+- **Project**: Day of the week schedule manager.  
+  **Details**: Create a program that takes a day of the week as input and displays the user's schedule for that day using a `when` expression.
 
-### **4. Collections in Kotlin**
-   - **Arrays**: Creating arrays using `var` and `val`
-   - **Lists**: Mutable and Immutable lists (`List`, `MutableList`)
-   - **Maps**: Mutable and Immutable maps (`Map`, `MutableMap`)
-   - **Sets**: Working with sets and their mutable counterparts (`Set`, `MutableSet`)
-
-### **5. Loops in Kotlin**
-   - **For loop**: Iterating over ranges, arrays, and collections
-   - **While loop**: Explanation and examples
-   - **Do-while loop**: Explanation and examples
-   - Practice: Loop through lists, arrays, and maps using different loop types
-
-### **6. Functions in Kotlin**
-   - **Basic Functions**: Defining and calling functions
-   - **Returning values**: Functions that return values
-   - **Higher-order functions**: Passing functions as parameters
-   - **Inline functions**: Improving performance with inline functions
-
-### **7. Lambda Expressions**
-   - Introduction to Lambdas
-   - Using lambdas with collections
-   - Writing concise Kotlin code using lambdas
-   - Practice: Solve tasks using lambda expressions
-
-### **8. Ranges in Kotlin**
-   - Using ranges in loops (`1..6`, `1 until 6`, `downTo`, `step`)
-   - Practice: Create examples using ranges in loops
-
-### **9. Methods in Kotlin**
-   - **Get method**: How to use `get` to access elements
-   - **Set method**: Modifying elements
-   - Values swapping using methods
-
-### **10. Classes and Objects**
-   - **Creating Classes**: Defining properties and functions inside a class
-   - **Objects**: Working with objects and instances
-   - **Constructors**: Primary and secondary constructors
-   - **Inner and Outer Classes**: Understanding the relationship between them
-
-### **11. Inheritance in Kotlin**
-   - Introduction to Inheritance
-   - Types of inheritance (Single, Multilevel, etc.)
-   - **Overriding and Overloading**: Understanding method overriding and function overloading
-
-### **12. Abstract Classes**
-   - **Abstract classes**: When and why to use them
-   - **Abstract methods**: Defining abstract functions and properties
-
-### **13. Interfaces**
-   - **Interfaces**: Declaring and implementing interfaces
-   - **Multiple inheritance with interfaces**: How Kotlin handles multiple inheritance
-   - Example: Create a class implementing multiple interfaces
-
-### **14. Visibility Modifiers**
-   - Understanding visibility modifiers: `public`, `private`, `protected`, `internal`
-   - Access control in Kotlin for classes and functions
-
-### **15. Data Classes**
-   - Introduction to **Data Classes**
-   - Automatic generation of `toString()`, `equals()`, `hashCode()`, and `copy()`
-   - Practice: Create a data class and utilize its functionalities
-
-### **16. Sealed Classes**
-   - Explanation and use cases for sealed classes
-   - Difference between sealed and regular classes
-   - Example: Using sealed classes with `when` expressions
-
-### **17. Anonymous Classes**
-   - Understanding and creating **anonymous classes**
-   - Example: Use an anonymous class to handle events or callbacks
-
-### **18. Generics in Kotlin**
-   - Introduction to Generics
-   - Type parameters in classes and functions
-   - Example: Create a generic class and function
-
-### **19. Companion Objects**
-   - Using **companion objects** to define static members
-   - Example: Define utility functions and constants in companion objects
-
-### **20. Delegates in Kotlin**
-   - **Delegated properties**: Lazy initialization, observable, vetoable properties
-   - Example: Use delegates to simplify property management
-
-### **21. Exception Handling**
-   - **Try-catch blocks**: Handling exceptions in Kotlin
-   - **Finally block**: Ensuring cleanup actions
-   - Throwing exceptions
-   - Practice: Handle exceptions in a program, and use `try` as an expression
-
-### **22. Coroutines**
-   - Introduction to **Coroutines**: Concurrency in Kotlin
-   - **Suspend functions**: Asynchronous code using coroutines
-   - **Coroutine Scopes**: Understanding scopes for structured concurrency
-   - Example: Perform a long-running task using coroutines
+**Lesson 3: Loops (`for`, `while`, `do-while`)**  
+- **Project**: Number pattern generator.  
+  **Details**: Write a program that generates a triangular number pattern using a `for` loop. Expand it by using a `while` loop to let the user choose the number of rows dynamically.
 
 ---
+
+### 2. **Functions in Kotlin**
+
+**Lesson 4: Defining Functions**  
+- **Project**: Simple math operation functions.  
+  **Details**: Implement separate functions for addition, subtraction, multiplication, and division. Call these functions in the main program based on user input.
+
+**Lesson 5: Higher-Order Functions**  
+- **Project**: Discount calculator with custom strategies.  
+  **Details**: Write a program that calculates discounts on a price using higher-order functions. Allow the user to pass different discount strategies (percentage or flat discount) as functions to the discount calculator.
+
+**Lesson 6: Inline Functions**  
+- **Project**: Optimized discount calculator with inline functions.  
+  **Details**: Modify the above discount calculator to use inline functions for performance optimization, especially if the calculations are repeated in loops.
+
+---
+
+### 3. **Lambda Expressions**
+
+**Lesson 7: Lambda Expressions**  
+- **Project**: Even number filter with lambda.  
+  **Details**: Create a list of numbers and use a lambda expression to filter out only even numbers. Print the filtered list.
+
+**Lesson 8: Anonymous Functions**  
+- **Project**: Sorting list using anonymous functions.  
+  **Details**: Write a program that takes a list of integers and sorts them using an anonymous function within `sortedBy` or `sortedWith` for custom sorting logic.
+
+---
+
+### 4. **Collections in Kotlin**
+
+**Lesson 9: Arrays and Lists**  
+- **Project**: Student grade manager using arrays.  
+  **Details**: Create a program to store students' grades in an array and calculate the class average. Extend it to use a mutable list to add/remove student grades dynamically.
+
+**Lesson 10: Maps and Sets**  
+- **Project**: Phonebook using maps.  
+  **Details**: Implement a phonebook where names are keys and phone numbers are values. Allow users to add, search, and remove contacts. Also, prevent duplicate contact names using a set.
+
+---
+
+### 5. **Ranges in Kotlin**
+
+**Lesson 11: Using Ranges**  
+- **Project**: Range-based multiplication table generator.  
+  **Details**: Write a program that uses ranges to generate and display a multiplication table for a number entered by the user.
+
+---
+
+### 6. **Classes and Objects**
+
+**Lesson 12: Defining Classes and Creating Objects**  
+- **Project**: Employee management system.  
+  **Details**: Create an `Employee` class with properties like name, age, and salary. Write methods to increase/decrease salary and print employee details. Create objects for different employees and manage them.
+
+**Lesson 13: Constructors (Primary and Secondary)**  
+- **Project**: Bank account simulation with constructors.  
+  **Details**: Implement a `BankAccount` class with primary and secondary constructors. Allow the user to create accounts with an initial balance or without a balance (using default values in the constructors).
+
+---
+
+### 7. **Inheritance in Kotlin**
+
+**Lesson 14: Types of Inheritance (Single, Multilevel, Hierarchical)**  
+- **Project**: School management system using inheritance.  
+  **Details**:  
+  - **Single Inheritance**: Create a `Person` class and extend it to a `Student` class. The `Student` class inherits properties and methods from `Person`.  
+  - **Multilevel Inheritance**: Add a `GraduateStudent` class that extends `Student`, creating a three-level inheritance hierarchy.  
+  - **Hierarchical Inheritance**: Create another class like `Teacher` that extends `Person`, demonstrating multiple subclasses inheriting from the same base class.
+
+**Lesson 15: Multiple Inheritance via Interfaces**  
+- **Project**: Multiple inheritance in zoo simulation.  
+  **Details**: Create interfaces like `Carnivore` and `Herbivore`, and implement classes like `Lion` and `Deer` that inherit behavior from multiple interfaces.
+
+---
+
+### 8. **Abstract Classes**
+
+**Lesson 16: Abstract Classes and Methods**  
+- **Project**: Abstract shape class.  
+  **Details**: Create an abstract class `Shape` with an abstract method `calculateArea()`. Implement specific shapes like `Circle` and `Square` that override the abstract method to calculate and return their respective areas.
+
+---
+
+### 9. **Interfaces**
+
+**Lesson 17: Working with Interfaces**  
+- **Project**: Zoo simulation with interfaces.  
+  **Details**: Expand the zoo simulation by implementing `Carnivore` and `Herbivore` interfaces for animals. Write methods to define their eating behaviors. Override these methods in animal classes like `Lion` and `Elephant`.
+
+---
+
+### 10. **Visibility Modifiers**
+
+**Lesson 18: Understanding Visibility Modifiers**  
+- **Project**: Library management system with restricted access.  
+  **Details**: Implement a class to manage books and authors. Use visibility modifiers (`private`, `protected`, `public`) to control access to methods. For example, only allow internal modification of book details while making other parts publicly accessible.
+
+---
+
+### 11. **Data Classes**
+
+**Lesson 19: Data Classes in Kotlin**  
+- **Project**: Contact management system with data classes.  
+  **Details**: Create a `Contact` data class to store contact details like name, phone number, and email. Implement functionality to add, remove, and update contacts, showcasing the use of data class methods like `copy()` and `toString()`.
+
+---
+
+### 12. **Sealed Classes**
+
+**Lesson 20: Sealed Classes**  
+- **Project**: Handling API responses with sealed classes.  
+  **Details**: Use a sealed class to represent different API response types (`Success`, `Error`, `Loading`). Create a function to simulate an API call and use a `when` expression to handle each response type.
+
+---
+
+### 13. **Generics in Kotlin**
+
+**Lesson 21: Introduction to Generics**  
+- **Project**: Generic sorting algorithm.  
+  **Details**: Implement a generic function to sort a list of any data type (`Int`, `String`, `Double`). Use type parameters to ensure the function can handle multiple types.
+
+---
+
+### 14. **Companion Objects**
+
+**Lesson 22: Companion Objects in Kotlin**  
+- **Project**: Math utility class with companion object.  
+  **Details**: Create a `MathUtils` class with a companion object containing static methods like `add()`, `subtract()`, and `multiply()`. Access these methods from the companion object directly without creating an instance of `MathUtils`.
+
+---
+
+### 15. **Exception Handling**
+
+**Lesson 23: Exception Handling**  
+- **Project**: Banking system with exception handling.  
+  **Details**: Implement a banking system that throws and catches exceptions for situations like insufficient funds. Use `try-catch` blocks to handle different types of exceptions and ensure smooth execution.
+
+---
+
+### 16. **Coroutines in Kotlin**
+
+**Lesson 24: Introduction to Coroutines**  
+- **Project**: Weather app simulation using coroutines.  
+  **Details**: Simulate fetching weather data from an API using coroutines. Use `launch` and `async` to handle tasks concurrently, such as fetching data and updating the UI.
+
+---
+
+### 17. **Delegates in Kotlin**
+
+**Lesson 25: Property Delegation**  
+- **Project**: Lazy loading simulation.  
+  **Details**: Create a class that uses the `lazy` delegate to initialize a heavy computation only when it's needed. Demonstrate this by printing a message when the property is first accessed.
+
+---
+
+### 18. **Inner Classes and Nested Classes**
+
+**Lesson 26: Nested and Inner Classes**  
+- **Project**: Car and Engine simulation.  
+  **Details**: Create a `Car` class with a nested `Engine` class. Implement methods to start and stop the engine, accessing the engine's details through the car object.
+
+---
+
+### 19. **Overriding and Overloading**
+
+**Lesson 27: Method Overriding and Overloading**  
+- **Project**: Payroll system with overridden methods.  
+  **Details**: Implement a `Payroll` system with classes like `FullTimeEmployee` and `PartTimeEmployee`. Override methods like `calculateSalary()` to provide custom logic for different employee types. Use method overloading to allow salary calculation based on different parameters.
+
+---
+
+### 20. **Abstract Classes vs Interfaces**
+
+**Lesson 28: Understanding Abstract Classes vs Interfaces**  
+- **Project**: Vehicle management system with abstract classes and interfaces.  
+  **Details**: Implement a vehicle management system where `Vehicle` is an
+
+ abstract class, and interfaces like `FuelBased` and `ElectricBased` define fuel-specific behavior. Create classes for `Car`, `Bike`, and `ElectricScooter` to illustrate differences between abstract classes and interfaces.
