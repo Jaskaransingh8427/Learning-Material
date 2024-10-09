@@ -1,0 +1,114 @@
+---
+
+### **1. Introduction to Kotlin**
+   - What is Kotlin? (Overview, Features)
+   - Setting up the development environment (IDE setup)
+   - Writing your first Kotlin program (Hello World)
+
+### **2. Variables and Data Types**
+   - `var` vs `val` (mutable vs immutable variables)
+   - Basic data types in Kotlin (Int, Double, String, Boolean, etc.)
+   - Type inference in Kotlin
+
+### **3. Control Flow Statements**
+   - **If, else, else if**: Conditional logic
+   - **When expressions**: More powerful than `switch-case` statements
+   - Practice: Write a program that uses if-else and when statements to solve basic problems
+
+### **4. Collections in Kotlin**
+   - **Arrays**: Creating arrays using `var` and `val`
+   - **Lists**: Mutable and Immutable lists (`List`, `MutableList`)
+   - **Maps**: Mutable and Immutable maps (`Map`, `MutableMap`)
+   - **Sets**: Working with sets and their mutable counterparts (`Set`, `MutableSet`)
+
+### **5. Loops in Kotlin**
+   - **For loop**: Iterating over ranges, arrays, and collections
+   - **While loop**: Explanation and examples
+   - **Do-while loop**: Explanation and examples
+   - Practice: Loop through lists, arrays, and maps using different loop types
+
+### **6. Functions in Kotlin**
+   - **Basic Functions**: Defining and calling functions
+   - **Returning values**: Functions that return values
+   - **Higher-order functions**: Passing functions as parameters
+   - **Inline functions**: Improving performance with inline functions
+
+### **7. Lambda Expressions**
+   - Introduction to Lambdas
+   - Using lambdas with collections
+   - Writing concise Kotlin code using lambdas
+   - Practice: Solve tasks using lambda expressions
+
+### **8. Ranges in Kotlin**
+   - Using ranges in loops (`1..6`, `1 until 6`, `downTo`, `step`)
+   - Practice: Create examples using ranges in loops
+
+### **9. Methods in Kotlin**
+   - **Get method**: How to use `get` to access elements
+   - **Set method**: Modifying elements
+   - Values swapping using methods
+
+### **10. Classes and Objects**
+   - **Creating Classes**: Defining properties and functions inside a class
+   - **Objects**: Working with objects and instances
+   - **Constructors**: Primary and secondary constructors
+   - **Inner and Outer Classes**: Understanding the relationship between them
+
+### **11. Inheritance in Kotlin**
+   - Introduction to Inheritance
+   - Types of inheritance (Single, Multilevel, etc.)
+   - **Overriding and Overloading**: Understanding method overriding and function overloading
+
+### **12. Abstract Classes**
+   - **Abstract classes**: When and why to use them
+   - **Abstract methods**: Defining abstract functions and properties
+
+### **13. Interfaces**
+   - **Interfaces**: Declaring and implementing interfaces
+   - **Multiple inheritance with interfaces**: How Kotlin handles multiple inheritance
+   - Example: Create a class implementing multiple interfaces
+
+### **14. Visibility Modifiers**
+   - Understanding visibility modifiers: `public`, `private`, `protected`, `internal`
+   - Access control in Kotlin for classes and functions
+
+### **15. Data Classes**
+   - Introduction to **Data Classes**
+   - Automatic generation of `toString()`, `equals()`, `hashCode()`, and `copy()`
+   - Practice: Create a data class and utilize its functionalities
+
+### **16. Sealed Classes**
+   - Explanation and use cases for sealed classes
+   - Difference between sealed and regular classes
+   - Example: Using sealed classes with `when` expressions
+
+### **17. Anonymous Classes**
+   - Understanding and creating **anonymous classes**
+   - Example: Use an anonymous class to handle events or callbacks
+
+### **18. Generics in Kotlin**
+   - Introduction to Generics
+   - Type parameters in classes and functions
+   - Example: Create a generic class and function
+
+### **19. Companion Objects**
+   - Using **companion objects** to define static members
+   - Example: Define utility functions and constants in companion objects
+
+### **20. Delegates in Kotlin**
+   - **Delegated properties**: Lazy initialization, observable, vetoable properties
+   - Example: Use delegates to simplify property management
+
+### **21. Exception Handling**
+   - **Try-catch blocks**: Handling exceptions in Kotlin
+   - **Finally block**: Ensuring cleanup actions
+   - Throwing exceptions
+   - Practice: Handle exceptions in a program, and use `try` as an expression
+
+### **22. Coroutines**
+   - Introduction to **Coroutines**: Concurrency in Kotlin
+   - **Suspend functions**: Asynchronous code using coroutines
+   - **Coroutine Scopes**: Understanding scopes for structured concurrency
+   - Example: Perform a long-running task using coroutines
+
+---
